@@ -1,6 +1,5 @@
-def triangle(b,h,a):
-    a = (1/2) * (b*h)
-    return a
+def triangle(d,e,f):
+    g = (d + e+ f)/2
+    return ((g *(g-d)*(g-e)*(g-f)** 0.5))
 
-
-print(triangle(4,6,1))
+print(triangle(7,3,5))
