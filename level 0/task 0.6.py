@@ -1,4 +1,4 @@
-def maximum(t,g,s):
+def maximum_number(t,g,s):
     if (t>=g) and (t>=s):
         largest = t
     elif (g>=t) and (g>=s):
@@ -7,4 +7,4 @@ def maximum(t,g,s):
         largest = s
     return largest
 
-print(maximum(2,78,45))
+print(maximum_number(2,78,45))
